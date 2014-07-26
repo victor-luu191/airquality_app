@@ -1,0 +1,31 @@
+---
+title       : Air Quality App
+subtitle    : Exploring Air Quality in New York
+author      : Duc Luu
+job         : 
+framework   : shower        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [quiz, bootstrap]            # {mathjax, quiz, bootstrap}
+ext_widgets : {rCharts: [libraries/nvd3]}
+mode        : selfcontained # {standalone, draft}
+---
+
+## What is in this for you?
+1. Daily air quality measurements in New York, May to September 1973, including:
+  
+  +1a Ozone level at Roosevelt Island
+  
+  +1b Solar radiation at Central Park
+  
+  +1c Wind speed and maximum daily temperature at La Guardia Airport
+
+2. Some analysis based on these measurements.
+
+--- .radio 
+
+## Slide 2
+
+
+
+
