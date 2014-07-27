@@ -55,9 +55,9 @@ Detailed description on the data set can be found by running `help("airquality")
 
 ## Why do you need this?
 
-1. The plots _visualize_ dynamics of different air quality measurements to give you a clear picture of data. 
-2. In summaries and tables, NAs are shown clearly as "Not Available".
-3. In plots, measurements are shown with easily distinguished and memorable colors.
+1. The plots __visualize__ dynamics of different air quality measurements to give you a clear picture of data. 
+2. In summaries and tables, NAs are shown clearly as __"Not Available"__.
+3. In plots, measurements are shown with __distinguishable__ and __memorable__ colors.
 4. __Help documentation__ is available for your quick start.
 
 ---
