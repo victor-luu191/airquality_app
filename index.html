@@ -48,16 +48,17 @@
   </hgroup>
   <article data-timings="">
     <ol>
-<li><p><strong>Plots</strong> of air quality measurements in New York city, May to September 1973. The measurements include:</p>
+<li><p><strong>Colorful plots</strong> of air quality measurements in New York city, May to September 1973. The measurements include:</p>
 
-<p>a. <em>Mean ground Ozone level</em>  at Roosevelt Island</p>
+<p>a. <em>Mean ground Ozone level</em></p>
 
-<p>b. <em>Solar radiation</em> at Central Park</p>
+<p>b. <em>Solar radiation</em></p>
 
-<p>c. <em>Mean wind speed</em> and <em>maximum daily temperature</em> at La Guardia Airport</p></li>
-<li><p><strong>Summaries</strong>  of data per month.  </p></li>
-<li><p><strong>Boxplots</strong> for quick comparison air quality over the months.</p></li>
-<li><p><strong>Daily data lookup</strong>.</p></li>
+<p>c. <em>Mean wind speed</em> and <em>maximum daily temperature</em></p></li>
+<li><p><strong>Summaries</strong>  of data per month.</p></li>
+<li><p><strong>Detailed, searchable table</strong> showing data for each month</p></li>
+<li><p><strong>Boxplots</strong> for quick and easy comparison air quality over the months. </p></li>
+<li><p><strong>Easy daily data</strong> lookup.</p></li>
 </ol>
 
   </article>
@@ -66,12 +67,32 @@
 
 <slide class="" id="slide-2" style="background:;">
   <hgroup>
-    <h2><em>Airquality</em>  data set</h2>
+    <h2>Data</h2>
   </hgroup>
   <article data-timings="">
-    <p>The data set is available in <code>R</code> package <code>datasets</code>. It contains 154 observations on 6 variables.</p>
+    <p><code>airquality</code> data set, available in <code>R</code> package <code>datasets</code>. </p>
 
-<ol>
+<pre><code>## [1] &quot;Number of observations: 153&quot;
+</code></pre>
+
+<pre><code>## [1] &quot;Number of measurements (aka variables) 6&quot;
+</code></pre>
+
+<p>Variable names:</p>
+
+<pre><code>## [1] &quot;Ozone&quot;   &quot;Solar.R&quot; &quot;Wind&quot;    &quot;Temp&quot;    &quot;Month&quot;   &quot;Day&quot;
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>More on variables</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
 <li>Ozone: ozone at ground level, numeric values, in <strong>ppb</strong> unit.</li>
 <li>Solar.R: solar radiation, numeric values, in <strong>lang</strong> unit.</li>
 <li>Wind: wind speed,  numeric values, in <strong>mph</strong>.</li>
@@ -80,36 +101,31 @@
 <li>Day: in range [1, 31].</li>
 </ol>
 
+<p>Detailed description on the data set can be found by running <code>help(&quot;airquality&quot;)</code> at <code>R</code> console. </p>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-3" style="background:;">
+<slide class="" id="slide-4" style="background:;">
   <hgroup>
-    <h2>How to use this app?</h2>
+    <h2>Why do you need this?</h2>
   </hgroup>
   <article data-timings="">
-    <p>You can look up data either monthly or daily.</p>
-
-<p><em>Monthly data</em></p>
-
-<ol>
-<li>Choose a measurement and a month you want to see </li>
-<li><p>Among four tabs on the right:</p>
-
-<p>i) <code>Plot</code> shows you dynamic of the measurement in that month</p>
-
-<p>ii) <code>Summary</code> provides a summary (of course) for that month</p>
-
-<p>iii) <code>Table</code> shows full table of all days in that month</p>
-
-<p>iv) <code>Comparison</code> provides a box plot to compare all months from May to September </p></li>
+    <ol>
+<li>The plots <em>visualize</em> dynamics of different air quality measurements to give you a clear picture of data. </li>
+<li>In summaries and tables, NAs are shown clearly as &quot;Not Available&quot;.</li>
+<li>In plots, measurements are shown with easily distinguished and memorable colors.</li>
+<li><strong>Help documentation</strong> is available for your quick start.</li>
 </ol>
 
-<p><em>Daily data</em></p>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<p>Just choose a date, hit <code>Get data</code> and there you are!</p>
-
+<slide class="" id="slide-5" style="background:;">
+  <article data-timings="">
+    
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -126,14 +142,26 @@
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='<em>Airquality</em>  data set'>
+        data-slide=2 title='Data'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='How to use this app?'>
+        data-slide=3 title='More on variables'>
          3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Why do you need this?'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title=''>
+         5
       </a>
     </li>
   </ul>
